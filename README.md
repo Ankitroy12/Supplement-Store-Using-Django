@@ -25,6 +25,11 @@ An online supplement and medicine store built using **Django** and **Bootstrap**
 ## 🚀 How to Set Up and Run the Project
 
 Follow these steps to run the project locally:
-
+Step 1 Transfer all the files into a Single Folder.  
+Step 2 Make sure to install Django.  
+Step 3 Open the console for the above created folder.  
+Step 4 Run "python manage.py makemigrations" and "python manage.py migrate".  
+Step 5 Run "python manage.py createsuperuser".  
+Step 6 Run "python manage.py runserver".  
 ---
 
