@@ -1,0 +1,22 @@
+.c-item{
+   height: 70vh;
+   align-items: center;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+#head1{
+    font-size: x-large;
+    font-weight: bold ;
+}
+.nav{
+    font-size: large;
+    padding-left: 2vh;
+}
+.space{
+    padding: 2rem;
+}
+#form11{
+    margin: auto;
+}
