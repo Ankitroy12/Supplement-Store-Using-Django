@@ -33,3 +33,12 @@ Follow these steps to run the project locally:
 **Step 6** Run "python manage.py runserver".  
 
 
+---
+
+## 🎥 Project Demo
+
+📺 Watch the demo video: [Click to watch on Google Drive](https://drive.google.com/file/d/YOUR_FILE_ID/view)
+
+> The demo walks through browsing supplements, direct purchasing flow, and the responsive UI.
+
+
