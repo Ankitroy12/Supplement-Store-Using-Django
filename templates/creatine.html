@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="{% static "creatp.jpg" %}" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "wellcorecrea.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Wellcore - Micronised Creatine Monohydrate</p>
+            <p class="card-text">Rs 600</p>
+            <a href="{% url 'contact' %}?sup=Wellcore - Micronised Creatine Monohydrate" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Muscleblazecrea.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze Creatine Monohydrate CreAMP</p>
+            <p class="card-text">Rs 900</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze Creatine Monohydrate CreAMP" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Creapro.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze CreaPRO Creatine with Creapure</p>
+            <p class="card-text">Rs 1200</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze CreaPRO Creatine with Creapure" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Myprocrea.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MYPROTEIN Impact Creatine Monohydrate Powder</p>
+            <p class="card-text">Rs 850</p>
+            <a href="{% url 'contact' %}?sup=MYPROTEIN Impact Creatine Monohydrate Powder" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Avvatarcrea.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Avvatar Creatine Monohydrate</p>
+            <p class="card-text">Rs 500</p>
+            <a href="{% url 'contact' %}?sup=Avvatar Creatine Monohydrate" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Wrathpre.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze Pre Workout WrathX</p>
+            <p class="card-text">Rs 1330</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze Pre Workout WrathX" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Oncrea.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Optimum Nutrition Micronised Creatine Powder</p>
+            <p class="card-text">Rs 1000</p>
+            <a href="{% url 'contact' %}?sup=Optimum Nutrition Micronised Creatine Powder" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Dynamitepre.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Dynamite Pre-Workout</p>
+            <p class="card-text">Rs 800</p>
+            <a href="{% url 'contact' %}?sup=Dynamite Pre-Workout" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "GNCcrea.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">GNC Pro Performance Pre-Workout</p>
+            <p class="card-text">Rs 1300</p>
+            <a href="{% url 'contact' %}?sup=GNC Pro Performance Pre-Workout" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+        <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Fuelonepre.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">FuelOne Dead-Lift Pre Workout</p>
+            <p class="card-text">Rs 500</p>
+            <a href="{% url 'contact' %}?sup=FuelOne Dead-Lift Pre Workout" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+        <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "MuscleblazeBCAA.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze BCAA Pro Essential Amino Acids</p>
+            <p class="card-text">Rs 680</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze BCAA Pro Essential Amino Acids" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+        <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "BeastBCAA.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Beast Recovery BCAA</p>
+            <p class="card-text">Rs 1000</p>
+            <a href="{% url 'contact' %}?sup=Beast Recovery BCAA" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock body%} 

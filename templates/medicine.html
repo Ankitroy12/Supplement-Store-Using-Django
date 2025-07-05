@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="{% static "Vitamtp.jpg" %}" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Paracetamol.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Paracetamol Tablets Ip 500mg</p>
+            <p class="card-text">Rs 20</p>
+            <a href="{% url 'contact' %}?sup=Paracetamol Tablets Ip 500mg" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Ibuprofen.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Ibuprofen Tablets 400 Mg</p>
+            <p class="card-text">Rs 30</p>
+            <a href="{% url 'contact' %}?sup=Ibuprofen Tablets 400 Mg" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Pantoprazole.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Pantoprazole Dual Release Gastro Resistant Tablets</p>
+            <p class="card-text">Rs 85</p>
+            <a href="{% url 'contact' %}?sup=Pantoprazole Dual Release Gastro Resistant Tablets" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Azithromycin.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Azicip 500 Azithromycin Tablets IP 500 Mg</p>
+            <p class="card-text">Rs 60</p>
+            <a href="{% url 'contact' %}?sup=Azicip 500 Azithromycin Tablets IP 500 Mg" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Levocetirizine and Montelukast Tablets.jpeg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Levocetirizine and Montelukast Tablets</p>
+            <p class="card-text">Rs 110</p>
+            <a href="{% url 'contact' %}?sup=Levocetirizine and Montelukast Tablets" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Amoxicillin.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Amoxicillin & Potassium Clavulanate INJECTION IP 1.2 GM.</p>
+            <p class="card-text">Rs 100</p>
+            <a href="{% url 'contact' %}?sup=Amoxicillin & Potassium Clavulanate INJECTION IP 1.2 GM." class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Betadine Ointment.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Betadine Ointment</p>
+            <p class="card-text">Rs 100</p>
+            <a href="{% url 'contact' %}?sup=Betadine Ointment" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Seroflo 250 Inhaler.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Seroflo 250 Inhaler</p>
+            <p class="card-text">Rs 750</p>
+            <a href="{% url 'contact' %}?sup=Seroflo 250 Inhaler" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "ORS Powder Sachet, For Clinical, 21g.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">ORS Powder Sachet, For Clinical, 21g</p>
+            <p class="card-text">Rs 25</p>
+            <a href="{% url 'contact' %}?sup=ORS Powder Sachet, For Clinical, 21g" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Bandage.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">White Long Stretch Compression Roll Bandage 7.5x8</p>
+            <p class="card-text">Rs 40</p>
+            <a href="{% url 'contact' %}?sup=White Long Stretch Compression Roll Bandage 7.5x8" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Metformin.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Metformin Tablets BP 500 mg</p>
+            <p class="card-text">Rs 45</p>
+            <a href="{% url 'contact' %}?sup=Metformin Tablets BP 500 mg" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Eno Powder.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Eno Powder 100Grms Lemon 160Mrp 48Jar Box</p>
+            <p class="card-text">Rs 730</p>
+            <a href="{% url 'contact' %}?sup=Eno Powder 100Grms Lemon 160Mrp 48Jar Box" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock body%} 

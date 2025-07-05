@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="{% static "protp.jpg" %}" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "whey.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze Biozyme Performance Whey</p>
+            <p class="card-text">Rs 2800</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze Biozyme Performance Whey" class="btn btn-primary" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "avtarpro.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Avvatar Whey Protein</p>
+            <p class="card-text">Rs 3120</p>
+            <a href="{% url 'contact' %}?sup=Avvatar Whey Protein" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "GNC.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">GNC 100% Whey Protein</p>
+            <p class="card-text">Rs 3000</p>
+            <a href="{% url 'contact' %}?Sup=GNC 100% Whey Protein" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "mypro.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MYPRO THE Whey</p>
+            <p class="card-text">Rs 4500</p>
+            <a href="{% url 'contact' %}?sup=MYPRO THE Whey" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Fuelonepro.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Fuel One Whey Max</p>
+            <p class="card-text">Rs 2200</p>
+            <a href="{% url 'contact' %}?sup=Fuel One Whey Max" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Atompro.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">AS-IT-IS ATOM Whey Protein</p>
+            <p class="card-text">Rs 2050</p>
+            <a href="{% url 'contact' %}?sup=AS-IT-IS ATOM Whey Protein)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "ONpro.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Optimum Nutrition Gold Standard 100% Whey Protein</p>
+            <p class="card-text">Rs 3630</p>
+            <a href="{% url 'contact' %}?sup=Optimum Nutrition Gold Standard 100% Whey Protein" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "begreenpro.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">bGREEN Plant Protein (For men & women)</p>
+            <p class="card-text">Rs 2000</p>
+            <a href="{% url 'contact' %}?sup=bGREEN Plant Protein (For men & women)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock body%} 

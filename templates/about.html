@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="{% static "about.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 >ABOUT US</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container">
+  <h1>Welcome to LifeLine</h1>
+<h2>Fueling Your Health, Fast.</h2>
+    <p>At LifeLine, we believe that health and fitness shouldn’t be delayed. Whether you're gearing up for a workout or battling a sudden illness, we're here to support you — faster than anyone else. That’s why we deliver premium gym supplements and essential medicines to your doorstep in just 20 minutes.</p>
+
+    <p>Our mission is simple: to make health and wellness instantly accessible. We’ve partnered with trusted brands, certified pharmacists, and fitness experts to bring you a curated selection of high-quality products that match your lifestyle — from protein powders and vitamins to everyday medications and wellness essentials.</p>
+
+    <h3>What We Do?</h3>
+    <p>With real-time tracking, lightning-fast delivery, and 24/7 customer support, [Your Brand Name] is redefining the way you shop for health.</p>
+
+    <h3>Why Choose Us?</h3>
+    <ul>
+        <li><strong>20-Minute Delivery</strong>: We deliver your supplements and medicines faster than anyone else — right to your door in just 20 minutes. Because your health and fitness can’t wait.</li>
+        <li><strong>Premium Quality Products</strong>: We source only from trusted brands, certified suppliers, and licensed pharmacies — ensuring every product is 100% authentic and effective.</li>
+        <li><strong>Wide Range of Products</strong>: From protein powders, pre-workouts, and vitamins to essential medicines and wellness items — everything you need, all in one place.</li>
+        <li><strong> Safe & Secure</strong>: Your health and privacy are our top priorities. Every product is stored, handled, and delivered with utmost care and hygiene.</li>
+    </ul>
+
+    <h3>Our Mission</h3>
+    <p>We believe that whether you’re chasing gains or battling the flu, you shouldn’t have to wait — because your health deserves urgency.</p>
+
+    <h3>Join Us on the Journey</h3>
+    <p>Be part of a movement that delivers health and fitness — faster than ever. With just 20-minute delivery, we’re redefining convenience.
+Stay strong. Stay healthy. Join us.</p>
+    </div>
+{% endblock body%}

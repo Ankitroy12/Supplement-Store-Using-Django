@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block body%}
+{% load static %}
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="{% static "MediTp.jpg" %}" class="d-block w-100 c-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "Vita.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze MB-Vite Multivitamin</p>
+            <p class="card-text">Rs 500</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze MB-Vite Multivitamin" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "GNCmulti.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">GNC Mega Men One Daily Multivitamin</p>
+            <p class="card-text">Rs 500</p>
+            <a href="{% url 'contact' %}?sup=GNC Mega Men One Daily Multivitamin" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "ONmulti.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Optimum Nutrition Multivitamin for MEN| Vitamins & Minerals, Amino Acids & Anti-Oxidants</p>
+            <p class="card-text">Rs 690</p>
+            <a href="{% url 'contact' %}?sup=Optimum Nutrition Multivitamin for MEN| Vitamins & Minerals, Amino Acids & Anti-Oxidants" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "FueloneMulti.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">Fuel One Daily Multivitamin</p>
+            <p class="card-text">Rs 330</p>
+            <a href="{% url 'contact' %}?sup=Fuel One Daily Multivitamin" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="space"></div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "MBOmega3.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze Omega 3 Fish Oil</p>
+            <p class="card-text">Rs 570</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze Omega 3 Fish Oil" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "GNCOmega.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">GNC Fish Oil |Omega 3 Capsules</p>
+            <p class="card-text">Rs 650</p>
+            <a href="{% url 'contact' %}?sup=GNC Fish Oil |Omega 3 Capsules" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "MBLcar.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze Liquid Carnitine PRO </p>
+            <p class="card-text">Rs 670</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze Liquid Carnitine PRO " class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card c-item" style="width: 18rem;">
+          <img src="{% static "MBprobar.jpg" %}" class="card-img-top c-img" alt="...">
+          <div class="card-body">
+            <p class="card-text">MuscleBlaze Protein Bar (20 gm Protein)</p>
+            <p class="card-text">Rs 680</p>
+            <a href="{% url 'contact' %}?sup=MuscleBlaze Protein Bar (20 gm Protein)" class="btn btn-primary">Book</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock body%} 

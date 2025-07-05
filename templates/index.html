@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block body%}
+{% load static %}
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner ">
+      <div class="carousel-item active c-item">
+        <img src="{% static "protein.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark">No More Excuses</h5>
+          <p class="text-dark">Supplements at Your Door Before Your Warm-Up Ends</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="{% static "meds.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark">Your Health Can’t Wait</h5>
+          <p class="text-dark">Neither Do We</p>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="{% static "prework.jpg" %}" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark">Instant Gains.</h5>
+          <p class="text-dark">Instant Relief. Instant Delivery</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="space"></div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "whey.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <p class="card-text">Whey Protein And Plant Protein</p>
+              <a href="/protein" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "crea.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <p class="card-text">Creatine,BCAA and Pre-Workout</p>
+              <a href="/creatine" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "Vita.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <p class="card-text">Vitamins,Fish Oil,Omega3 And Many More</p>
+              <a href="/supplements" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card c-item" style="width: 18rem;">
+            <img src="{% static "medi.jpg" %}" class="card-img-top c-img" alt="...">
+            <div class="card-body">
+              <p class="card-text">All Tpye Of Medicines And Medical </p>
+              <a href="/medicine" class="btn btn-primary">Book</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+{% endblock body%}
