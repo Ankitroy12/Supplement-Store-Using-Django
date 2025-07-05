@@ -37,7 +37,7 @@ Follow these steps to run the project locally:
 
 ## 🎥 Project Demo
 
-📺 Watch the demo video: [Click to watch on Google Drive](https://drive.google.com/file/d/YOUR_FILE_ID/view)
+📺 Watch the demo video: [Click to watch on Google Drive]([https://drive.google.com/file/d/YOUR_FILE_ID/view](https://drive.google.com/file/d/1uDuAm8eF6nAqFhqLaXvlLwZW9kExX2J_/view?usp=drive_link))
 
 > The demo walks through browsing supplements, direct purchasing flow, and the responsive UI.
 
