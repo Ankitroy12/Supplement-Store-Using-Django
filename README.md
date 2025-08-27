@@ -2,6 +2,8 @@
 
 An online supplement and medicine store built using **Django** and **Bootstrap**, offering a fast and responsive user experience with **direct purchasing** and a unique **20-minute delivery promise**. Designed to showcase fitness products like proteins, vitamins, and workout essentials.
 
+<img src="ss/Screenshot (149).png" alt="App Screenshot">
+<img src="ss/Screenshot (150).png" alt="App Screenshot">
 ---
 
 ## 🔧 Technologies Used
